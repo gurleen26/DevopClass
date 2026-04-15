@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-#uhiu8wmq19@()b+ev67&a+u4o8%5+-lg3%bbo2^=!m9b-5c!p
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["copy public ip "] #copy public ip from AWS here 
 
 
 # Application definition
@@ -116,6 +116,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
 STATIC_URL = 'static/'
+
+#  new added by me 
+STATIC_ROOT = '/Soni_Jewellers/static'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = '/Soni_Jewellers/media'
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
